@@ -1,9 +1,0 @@
-Downloading packages ass3
-sudo apt-get install build-essential linux-generic libmpich-dev libopenmpi-dev
-
-Running ass3
-mpicc DS3.c -0 output  
-mpirun -np 4 ./output
-
-Sudo apt install default-jdk (java install ass 1)
-Sudo apt update (package update ass 1)
