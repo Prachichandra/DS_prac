@@ -1,0 +1,9 @@
+take switch pt --router pt--server--pc0--pc1
+connect pc to switch ---and switch t0 servr and router
+
+router -- fast ehternet 0/0 --ON-- Ip configuration= 192.168.1.1
+
+server0-- ip configuration
+ip address= 192.168.1.2
+ default gateway=192.168.1.1
+services--dhcp --service-- on--default gateway-- 192.168.1.1
