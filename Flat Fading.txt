@@ -1,0 +1,20 @@
+Flat Fading
+
+multipath=100               velocity=20
+no samples=1000             threshold=0
+sampling time=0.001       no.channels=5
+carr freq=900              avg snr=5
+mcr and sc---0 all values
+
+
+Click on LCR ---then click download values
+save file with values name
+now open the value folder 
+
+number of multipaths =1--then click reset
+do it for 2,3 ,4 
+
+then set multipaths to 10
+change no of channel to 1
+
+
