@@ -1,0 +1,31 @@
+file sharing by using tcp protocol
+
+take server-pt server 0
+     1841 router0
+     2950-24 switch1
+     2 pcs 
+ 
+click on router 
+       fastEthernet0/0 --on--IP address 10.10.10.1
+       fastEthernet0/1 -- ip address 192.168.0.1
+
+pc0 --desktop --ip address--192.168.0.2
+       default gateway--ipaddress--192.168.0.1
+
+pc1 --desktop --ip address--192.168.0.3
+       default gateway--ipaddress--192.168.0.1
+
+server= ip configuration --ip address--10.10.10.2
+       default gateway--ipaddress--10.10.10.1
+        go to services --click on ftp--set username and passward --check boxes of write,etc--add
+
+
+pc0 --desktop--text editor--write hello word--close
+command prompt --ping 10.10.10.2--ftp 10.10.10.2--put hello.text--dir
+
+
+pc1-- command prompt-- ftp 10.10.10.2
+      get hello.txt
+
+
+
