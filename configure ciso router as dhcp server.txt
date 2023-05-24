@@ -1,6 +1,0 @@
-router --ON-- Ip configuration= 192.168.1.2
-
-server
-ip address= 192.168.1.2
- default gateway=192.168.1.1
-services--dhcp --service on--default gateway-- 192.168.1.1
